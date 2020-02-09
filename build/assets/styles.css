@@ -1,0 +1,56 @@
+@media (min-width: 992px) {
+  #section {
+    width:40% !important;
+  }
+}
+
+body{
+  background-color: #80808005;
+}
+
+#section {
+  height:120%;
+  margin:80px auto 80px auto;
+}
+
+form {
+  margin-top:40px;
+}
+
+.form-text.text-success {
+  margin:10px auto 10px 5px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  margin-top:20px;
+}
+
+hr {
+  margin:50px 0px 50px 0px;
+  width:100%;
+}
+
+.card-body {
+  padding:50px 30px;
+  border-radius: 25px !important;
+}
+
+
+#list-group {
+  margin-top:40px;
+}
+
+::selection {
+  color: #114533;
+  background-color:#5fdcb06f;
+}
+
+footer{
+  margin: 40px;
+  text-align: center;
+}
+
+a{
+  color: #114533;
+}
+

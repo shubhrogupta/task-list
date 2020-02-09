@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taskList</title>
+    <link rel="stylesheet" href="assets/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <div class="container" id="section">
+        <div class="card">
+            <div class="card-body">
+                
+                <h1 class="card-title">Task List</h1>                
+
+                <h6 class="text-muted card-subtitle mb-2">make your task stuff</h6>
+                <form id="form-id">
+                    <small class="form-text text-success">enter your task</small>
+                    <input class="form-control" type="text" placeholder = "enter a thing" id="textInput">
+                    <button class="btn btn-success" type="submit">add task <i class="fa fa-plus"></i></button>
+                </form>
+                
+                <hr>
+
+                <h2>Tasks To-Do:</h2>
+
+                <form>
+                    <input class="form-control" type="text" placeholder = "filter 🔎" id="filter">
+                </form>
+
+                <ul class="list-group" id="list-group">
+                    
+                </ul>
+                <button class="btn btn-danger" type="button" id="clearBtn">clear tasks <i class="fa fa-trash" id="clearBtn"></i></button> 
+                
+            </div>
+        </div>
+    </div>
+    <footer>
+    <hr>
+        <p>made by <b><a href = "https://shubhro.in">shubhro</b></p>
+    </footer>
+    <script src="assets/scripts.js"></script>
+</body>
+
+</html>
